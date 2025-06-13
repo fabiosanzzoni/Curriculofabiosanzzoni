@@ -1,0 +1,137 @@
+body{
+    background-color: whitesmoke;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.biografia{
+    width: 90%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.biografia img{
+    width: 250px;
+    height: 250px;
+    border: 1px darkblue solid;
+    border-radius: 20px;
+}
+
+.informacoes{
+    width: 90%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.formulario{
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+    width: 90%;
+    height: 300px;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+button:hover{
+    border: darkblue solid 1px;
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.nome::after{
+    content: "👤";
+}
+
+.nome::before{
+    content: "👤";
+}
+
+.mensagem::after{
+    content: "📝";
+}
+
+.mensagem::before{
+    content: "📝";
+}
+
+.email::after{
+    content: "📧";
+}
+
+.email::before{
+    content: "📧";
+}
+
+.github::after{
+    content: "🐱";
+}
+
+.github::before{
+    content: "🐱";
+}
+
+.whatsapp::after{
+    content: "💬";
+}
+
+.whatsapp::before{
+    content: "💬";
+}
+
+.instagrma::after{
+    content: "📸";
+}
+
+.instagram::before{
+    content: "📸";
+}
+
+.itens {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
